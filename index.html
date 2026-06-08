@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trushil Raval | 2D & 3D Digital Media Specialist Portfolio</title>
+    <title>Trushil Raval | Vector Art & UI Design Portfolio</title>
+    <!-- Tailwind CSS for clean, high-end styling -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for clean creative tools and art icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -13,154 +14,158 @@
         .code-font { font-family: 'JetBrains Mono', monospace; }
     </style>
 </head>
-<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col justify-between selection:bg-teal-500 selection:text-white">
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col justify-between selection:bg-fuchsia-500 selection:text-white">
 
-    <header class="border-b border-zinc-900 bg-zinc-950/80 backdrop-blur sticky top-0 z-50">
+    <!-- Header Navigation -->
+    <header class="border-b border-zinc-800 bg-zinc-950/80 backdrop-blur sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
             <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-teal-500 to-indigo-600 flex items-center justify-center text-white font-bold text-sm tracking-wider">TR</div>
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-fuchsia-500 to-rose-600 flex items-center justify-center text-white font-bold text-sm tracking-wider">TR</div>
                 <span class="font-bold tracking-tight hidden sm:block text-zinc-200">Trushil Raval</span>
             </div>
             <nav class="flex space-x-6 text-xs uppercase tracking-widest font-semibold text-zinc-400">
-                <a href="#about" class="hover:text-teal-400 transition-colors">Core Profile</a>
-                <a href="#asset-simulator" class="hover:text-teal-400 transition-colors">Pipeline Simulator</a>
-                <a href="#experience" class="hover:text-teal-400 transition-colors">Technical Track</a>
-                <a href="#toolkit" class="hover:text-teal-400 transition-colors">Tool Matrix</a>
+                <a href="#about" class="hover:text-fuchsia-400 transition-colors">Creative Core</a>
+                <a href="#art-sandbox" class="hover:text-fuchsia-400 transition-colors">Vector Sandbox</a>
+                <a href="#portfolio" class="hover:text-fuchsia-400 transition-colors">Gallery</a>
+                <a href="#toolkit" class="hover:text-fuchsia-400 transition-colors">Toolkit</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12 space-y-24 flex-grow">
 
+        <!-- Hero Section -->
         <section id="about" class="grid md:grid-cols-12 gap-12 items-center pt-4">
             <div class="md:col-span-7 space-y-6">
-                <div class="inline-flex items-center space-x-2 bg-teal-500/10 text-teal-400 px-3 py-1 rounded-md text-xs font-semibold tracking-wider uppercase border border-teal-500/20">
-                    <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
-                    <span>AI-Driven Asset Engineering Track</span>
+                <div class="inline-flex items-center space-x-2 bg-fuchsia-500/10 text-fuchsia-400 px-3 py-1 rounded-md text-xs font-semibold tracking-wider uppercase border border-fuchsia-500/20">
+                    <span class="w-2 h-2 rounded-full bg-fuchsia-400 animate-pulse"></span>
+                    <span>Vector Asset & Inkscape Pipeline Track</span>
                 </div>
                 <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-                    Optimizing Multi-Dimensional Media Pipelines for <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-cyan-400 to-indigo-400">Advanced Research</span>
+                    Designing Scalable Graphics through <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-rose-400 to-amber-400">Mathematical Artistry</span>
                 </h1>
                 <p class="text-zinc-400 text-base leading-relaxed max-w-xl">
-                    Computer Science student at UTSA specialized in structuring, refining, and automating resolution-independent 2D vector layouts, layered raster arrays, and high-fidelity 3D mesh topologies for immersive system integrations.
+                    Computer Science student at UTSA merging technical logic loops with 2D vector asset production. Designing resolution-independent UI kits, character silhouettes, and sprite layouts structured cleanly for engine integration.
                 </p>
                 <div class="flex flex-wrap gap-4 pt-2">
-                    <a href="#asset-simulator" class="bg-gradient-to-r from-teal-500 to-indigo-600 hover:from-teal-400 hover:to-indigo-500 text-white px-5 py-2.5 rounded-lg font-medium shadow-lg shadow-teal-500/20 transition-all flex items-center space-x-2 text-sm">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
-                        <span>Launch Pipeline Simulator</span>
+                    <a href="#art-sandbox" class="bg-gradient-to-r from-fuchsia-500 to-rose-600 hover:from-fuchsia-400 hover:to-rose-500 text-white px-5 py-2.5 rounded-lg font-medium shadow-lg shadow-fuchsia-500/20 transition-all flex items-center space-x-2 text-sm">
+                        <i class="fa-solid fa-bezier-curve"></i>
+                        <span>Launch Vector Sandbox</span>
                     </a>
                     <a href="https://linkedin.com/in/trushilraval" target="_blank" class="bg-zinc-900 hover:bg-zinc-800 text-zinc-200 px-5 py-2.5 rounded-lg font-medium border border-zinc-800 transition-colors flex items-center space-x-2 text-sm">
                         <i class="fa-brands fa-linkedin"></i>
-                        <span>LinkedIn Profile</span>
+                        <span>View Creative Profile</span>
                     </a>
                 </div>
             </div>
             
+            <!-- Technical Code/SVG Box -->
             <div class="md:col-span-5 bg-zinc-900 border border-zinc-800 rounded-xl p-5 shadow-2xl relative overflow-hidden hidden md:block">
                 <div class="flex justify-between items-center mb-4 border-b border-zinc-800 pb-3">
-                    <span class="text-xs code-font text-zinc-500">asset_batch_compile.py</span>
+                    <span class="text-xs code-font text-zinc-500">game_heart_icon.svg</span>
                     <div class="flex space-x-1.5">
                         <div class="w-2.5 h-2.5 rounded-full bg-zinc-800"></div>
                         <div class="w-2.5 h-2.5 rounded-full bg-zinc-800"></div>
                         <div class="w-2.5 h-2.5 rounded-full bg-zinc-800"></div>
                     </div>
                 </div>
-                <pre class="text-xs code-font text-teal-400 space-y-1 overflow-x-auto"><code><span class="text-zinc-500"># Automated multi-tool asset scaling pipeline</span>
-<span class="text-purple-400">import</span> os
-<span class="text-purple-400">import</span> subprocess
-
-<span class="text-indigo-400">def</span> <span class="text-amber-400">compile_research_dataset</span>(source_svg, target_voxels):
-    <span class="text-zinc-500"># Render optimized variations via Inkscape CLI</span>
-    cmd = f<span class="text-amber-300">"inkscape {source_svg} --export-type=png"</span>
-    subprocess.run(cmd, shell=<span class="text-emerald-400">True</span>)
-    
-    <span class="text-zinc-500"># Verify dataset dimension boundaries</span>
-    <span class="text-purple-400">if</span> os.path.exists(target_voxels):
-        <span class="text-purple-400">return</span> <span class="text-amber-300">"Telemetry State Verified"</span></code></pre>
+                <pre class="text-xs code-font text-fuchsia-400 space-y-1 overflow-x-auto"><code><span class="text-zinc-500">&lt;!-- Inkscape Layer Optimization --&gt;</span>
+&lt;<span class="text-indigo-400">svg</span> <span class="text-amber-300">xmlns</span>=<span class="text-emerald-400">"http://www.w3.org/2000/svg"</span>&gt;
+  &lt;<span class="text-indigo-400">defs</span>&gt;
+    &lt;<span class="text-indigo-400">linearGradient</span> <span class="text-amber-300">id</span>=<span class="text-emerald-400">"fuchsiaGrad"</span>&gt;
+      &lt;<span class="text-indigo-400">stop</span> <span class="text-amber-300">offset</span>=<span class="text-emerald-400">"0%"</span> <span class="text-amber-300">stop-color</span>=<span class="text-emerald-400">"#d946ef"</span>/&gt;
+      &lt;<span class="text-indigo-400">stop</span> <span class="text-amber-300">offset</span>=<span class="text-emerald-400">"100%"</span> <span class="text-amber-300">stop-color</span>=<span class="text-emerald-400">"#f43f5e"</span>/&gt;
+    &lt;/<span class="text-indigo-400">linearGradient</span>&gt;
+  &lt;/<span class="text-indigo-400">defs</span>&gt;
+  &lt;<span class="text-indigo-400">path</span> <span class="text-amber-300">d</span>=<span class="text-emerald-400">"M12 21.35l-1.45-1.32C5.4 15.36 2 12.28..."</span> 
+        <span class="text-amber-300">fill</span>=<span class="text-emerald-400">"url(#fuchsiaGrad)"</span>/&gt;
+&lt;/<span class="text-indigo-400">svg</span>&gt;</code></pre>
             </div>
         </section>
 
         <hr class="border-zinc-900">
 
-        <section id="asset-simulator" class="space-y-8">
+        <!-- Live Vector Art Shading Sandbox Section -->
+        <section id="art-sandbox" class="space-y-8">
             <div class="max-w-3xl">
                 <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white flex items-center space-x-3">
-                    <i class="fa-solid fa-gauge-high text-teal-500 text-xl"></i>
-                    <span>Live Showcase: Interactive Media Pipeline & Quality Control Tool</span>
+                    <i class="fa-solid fa-wand-magic-sparkles text-fuchsia-500 text-xl"></i>
+                    <span>Live Interactive Component: Node & SVG Shading Matrix</span>
                 </h2>
                 <p class="text-zinc-400 mt-2">
-                    Select a multi-tool digital media pipeline subset below. Tweak file structural settings and compression modes to dynamically observe processing throughput speed, memory footprint constraints, and data generation integrity limits.
+                    Inkscape assets use node coordinates and explicit matrix calculations to build effects. Adjust the vector nodes below to see how blurring filters, light casting configurations, and shadow offset thresholds interact across responsive canvas environments.
                 </p>
             </div>
 
             <div class="grid lg:grid-cols-12 gap-8">
+                <!-- Parameters Side Panel -->
                 <div class="lg:col-span-4 bg-zinc-900 border border-zinc-800 rounded-xl p-6 space-y-6 flex flex-col justify-between">
                     <div class="space-y-5">
                         <h3 class="text-xs font-bold text-zinc-300 tracking-wider uppercase border-b border-zinc-800 pb-2 flex items-center space-x-2">
-                            <i class="fa-solid fa-sliders text-teal-400"></i>
-                            <span>Pipeline Configurations</span>
+                            <i class="fa-solid fa-palette text-fuchsia-400"></i>
+                            <span>Vector Properties</span>
                         </h3>
                         
+                        <!-- Control 1 -->
                         <div class="space-y-2">
                             <div class="flex justify-between text-xs font-medium">
-                                <label for="toolChain" class="text-zinc-400">Target Digital Toolchain Track</label>
+                                <label for="assetStyle" class="text-zinc-400">Active Mesh Profile</label>
                             </div>
-                            <select id="toolChain" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-teal-500">
-                                <option value="ink_gimp">2D Vector & Raster (Inkscape, GIMP, Krita)</option>
-                                <option value="blend_godot">3D Mesh & Engine Loops (Blender, Libresprite, Godot)</option>
+                            <select id="assetStyle" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-fuchsia-500">
+                                <option value="gem">Mythic Mana Crystal (Game Sprite Asset)</option>
+                                <option value="badge">Elite Rank Insignia (Vector UI Component)</option>
                             </select>
                         </div>
 
+                        <!-- Control 2 -->
                         <div class="space-y-2">
                             <div class="flex justify-between text-xs font-medium">
-                                <label id="sliderLabel" for="pipelineDensity" class="text-zinc-400">Asset Canvas Dimensions</label>
-                                <span id="sliderVal" class="text-teal-400 code-font">2K Res</span>
+                                <label for="blurRadius" class="text-zinc-400">Gaussian Blur Value ($\sigma$)</label>
+                                <span id="blurVal" class="text-fuchsia-400 code-font">4px</span>
                             </div>
-                            <input type="range" id="pipelineDensity" min="10" max="100" step="10" value="50" class="w-full h-1.5 bg-zinc-800 rounded-lg appearance-none cursor-pointer accent-teal-500">
-                            <p id="sliderDesc" class="text-[11px] text-zinc-500">Maps out coordinate point array data parsing complexity for asset batch builds.</p>
+                            <input type="range" id="blurRadius" min="0" max="12" step="1" value="4" class="w-full h-1.5 bg-zinc-800 rounded-lg appearance-none cursor-pointer accent-fuchsia-500">
+                            <p class="text-[11px] text-zinc-500">Defines standard deviation matrices for drop-shadow smoothing paths.</p>
                         </div>
 
+                        <!-- Control 3 -->
                         <div class="space-y-2">
                             <div class="flex justify-between text-xs font-medium">
-                                <label for="filtering" class="text-zinc-400">Encoding Optimization Mode</label>
-                                <span id="filterVal" class="text-teal-400 code-font">Lossless Layered</span>
+                                <label for="lightOffset" class="text-zinc-400">Lighting Layer Offset ($dx, dy$)</label>
+                                <span id="offsetVal" class="text-fuchsia-400 code-font">6px</span>
                             </div>
-                            <select id="filtering" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-teal-500">
-                                <option value="uncompressed">Uncompressed Raw Matrix Storage</option>
-                                <option value="optimized">Normalized & Multi-Layer RLE Layer Indexed</option>
-                                <option value="packed">Packed Core Voxel / Atlas Array Block</option>
-                            </select>
+                            <input type="range" id="lightOffset" min="-15" max="15" step="3" value="6" class="w-full h-1.5 bg-zinc-800 rounded-lg appearance-none cursor-pointer accent-fuchsia-500">
+                            <p class="text-[11px] text-zinc-500">Offsets the 2D coordinate vector position relative to global light maps.</p>
                         </div>
                     </div>
 
-                    <button id="processBtn" class="w-full bg-gradient-to-r from-teal-500 to-indigo-600 hover:from-teal-400 hover:to-indigo-500 text-white font-semibold text-sm py-2.5 px-4 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-lg shadow-teal-500/20">
-                        <i id="btnIcon" class="fa-solid fa-arrows-spin"></i>
-                        <span id="btnText">Compile Asset Matrix</span>
-                    </button>
+                    <div class="text-[11px] code-font text-zinc-500 border-t border-zinc-800 pt-4">
+                        Status: Vector Engine Operational
+                    </div>
                 </div>
 
-                <div class="lg:col-span-8 bg-zinc-900/40 border border-zinc-800 rounded-xl p-6 flex flex-col justify-between">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <h3 class="text-xs font-bold uppercase tracking-wider text-zinc-400 flex items-center space-x-2">
-                                <i class="fa-solid fa-chart-line text-zinc-500"></i>
-                                <span>Throughput Analytics: Resource Consumption Graph</span>
-                            </h3>
-                            <div class="flex items-center space-x-4 text-xs code-font">
-                                <span class="text-teal-400">Processing Speed: <span id="speedMetric">--</span></span>
-                                <span class="text-indigo-400">Memory Load: <span id="memoryMetric">--</span></span>
-                            </div>
-                        </div>
-                        <div class="h-64 w-full relative">
-                            <canvas id="pipelineChart"></canvas>
-                        </div>
+                <!-- Live Artwork Processing Box -->
+                <div class="lg:col-span-8 bg-zinc-900/40 border border-zinc-800 rounded-xl p-6 flex flex-col justify-between items-center min-h-[350px]">
+                    <div class="w-full flex items-center justify-between mb-4 border-b border-zinc-800/60 pb-3">
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-zinc-400 flex items-center space-x-2">
+                            <i class="fa-solid fa-eye text-zinc-500"></i>
+                            <span>Inkscape Core Render Port: 1:1 Workspace view</span>
+                        </h3>
+                        <span id="canvasType" class="text-xs font-medium code-font text-fuchsia-400">Asset: Mana Crystal</span>
+                    </div>
+
+                    <!-- Dynamic SVG Viewport Wrapper -->
+                    <div class="flex-grow flex items-center justify-center w-full py-6">
+                        <svg id="vectorCanvas" class="w-48 h-48 drop-shadow-xl transition-all duration-150" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Dynamic SVG Code injected via Javascript -->
+                        </svg>
                     </div>
                     
-                    <div class="mt-4 p-4 rounded-lg bg-zinc-950 border border-zinc-800 flex space-x-3 items-start">
-                        <i class="fa-solid fa-terminal text-indigo-400 text-sm mt-0.5"></i>
+                    <!-- Insight Display Console -->
+                    <div class="w-full mt-4 p-4 rounded-lg bg-zinc-950 border border-zinc-800 flex space-x-3 items-start">
+                        <i class="fa-solid fa-terminal text-rose-400 text-sm mt-0.5"></i>
                         <div class="text-xs text-zinc-400 space-y-1">
-                            <span class="font-semibold text-zinc-200 block">Pipeline Verification Core:</span>
-                            <p id="consoleText">Select operational values to trigger simulation telemetry logs instantly.</p>
+                            <span class="font-semibold text-zinc-200 block">Rasterization Diagnostics:</span>
+                            <p id="artConsoleText">Move parameters to alter vector filters and geometric translation logic instantly.</p>
                         </div>
                     </div>
                 </div>
@@ -169,78 +174,83 @@
 
         <hr class="border-zinc-900">
 
-        <section id="experience" class="space-y-8">
+        <!-- Experience Track & Inkscape Master Showcase -->
+        <section id="portfolio" class="space-y-8">
             <div class="max-w-2xl">
-                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Digital Media Engineering & Pipeline Experience</h2>
-                <p class="text-zinc-400 mt-2">Selected technical tracks evaluating layer management, algorithmic optimization, and design architecture loops.</p>
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Featured Creative Execution Frameworks</h2>
+                <p class="text-zinc-400 mt-2">Core design logic, node optimization models, and technical layouts applied across digital art assets.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-6">
+                <!-- Card 1: 2D Game Asset Production -->
                 <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
                     <div class="space-y-2">
                         <div class="flex justify-between items-start">
-                            <h3 class="text-lg font-semibold text-zinc-100">Vector UI & Layered Raster Synthesis</h3>
-                            <span class="text-xs text-zinc-500 code-font">Inkscape / Krita / GIMP</span>
+                            <h3 class="text-lg font-semibold text-zinc-100">Vector Asset & Sprite Pipeline Design</h3>
+                            <span class="text-xs text-zinc-500 code-font">Inkscape Native</span>
                         </div>
                         <p class="text-sm text-zinc-400">
-                            Designing resolution-independent vector assets inside Inkscape alongside structured high-bit-depth digital painting masks within Krita. Developing systematic layered asset structures to support robust model segmentation.
+                            Engineering complex 2D vector layouts utilizing bezier curves, node-snapping grids, and layer-group management within Inkscape. Designing clean, scalable sprite sheets optimized for direct multi-resolution export loops.
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Inkscape Core</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Krita Non-Destructive Layering</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">GIMP Processing</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Inkscape Desktop</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Path Operations</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">2D Sprite Architecture</span>
                     </div>
                 </div>
 
+                <!-- Card 2: Interactive Interface Systems -->
                 <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
                     <div class="space-y-2">
                         <div class="flex justify-between items-start">
-                            <h3 class="text-lg font-semibold text-zinc-100">3D Environment Mesh Optimization</h3>
-                            <span class="text-xs text-zinc-500 code-font">Blender / Godot / Unreal</span>
+                            <h3 class="text-lg font-semibold text-zinc-100">Full-Stack Application UI/UX Design</h3>
+                            <span class="text-xs text-slate-500 code-font">Technical Lead</span>
                         </div>
                         <p class="text-sm text-zinc-400">
-                            Modeling photorealistic and low-poly environments inside Blender. Focus placed on maximizing coordinate compilation efficiency, cleaning face orientation indices, and evaluating layout constraints for runtime engines.
+                            Led end-to-end frontend and backend prototyping of custom interactive platforms. Mapped user experience patterns, aligned grid alignments, and minimized layout delays to build responsive interfaces that maximized continuous active user metrics.
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Blender UV Topology</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Godot / Unreal Engine Track</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Libresprite Integration</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">UI/UX Prototypes</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Responsive Layouts</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Grid Frameworks</span>
                     </div>
                 </div>
 
+                <!-- Card 3: 3D-to-2D Asset Contexts -->
                 <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
                     <div class="space-y-2">
                         <div class="flex justify-between items-start">
-                            <h3 class="text-lg font-semibold text-zinc-100">Full-Stack Exhibition Application Infrastructure</h3>
-                            <span class="text-xs text-zinc-500 code-font">Technical Lead</span>
+                            <h3 class="text-lg font-semibold text-zinc-100">Multi-Dimensional Lighting Realism</h3>
+                            <span class="text-xs text-zinc-500 code-font">Ongoing Research</span>
                         </div>
                         <p class="text-sm text-zinc-400">
-                            Led end-to-end frontend and backend development of custom interactive platforms. Optimized media asset delivery paths and normalized data streams to prevent performance delays, scaling platforms seamlessly for real-time traffic.
+                            Synthesizing 3D lighting mechanics from Blender and Unreal Engine into clean flat vector configurations. Translating environmental ambient illumination variables and asset shadow profiles directly into 2D gradient matrices.
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Interface Layouts</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Data Normalization</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">System Profiling</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Gradient Meshes</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Lighting Translation</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Style Synthesis</span>
                     </div>
                 </div>
 
+                <!-- Card 4: Enterprise Lifecycle Prioritization -->
                 <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
                     <div class="space-y-2">
                         <div class="flex justify-between items-start">
-                            <h3 class="text-lg font-semibold text-zinc-100">Digital Portfolio Optimization Modeling</h3>
-                            <span class="text-xs text-zinc-500 code-font">Content & Analytics Track</span>
+                            <h3 class="text-lg font-semibold text-zinc-100">Product Lifecycle Engineering Scopes</h3>
+                            <span class="text-xs text-zinc-500 code-font">Operational Track</span>
                         </div>
                         <p class="text-sm text-zinc-400">
-                            Analyzed media performance variations, managing high-volume data streams tracking over 75 million metric signals. Utilized index validation algorithms and asset distribution optimizations to parse consumption trend maps.
+                            Evaluated operational design trajectories using engineering index frameworks. Mapped out product execution phases and system interactions to cleanly address performance inconsistencies within active distribution loops.
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Statistical Analysis</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Matrix Indexing</span>
-                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Resource Control</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">RICE Lifecycle Matrix</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Product Engineering</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Asset Management</span>
                     </div>
                 </div>
             </div>
@@ -248,56 +258,56 @@
 
         <hr class="border-zinc-900">
 
+        <!-- Skills Matrix Technical Toolkit -->
         <section id="toolkit" class="space-y-8">
             <div class="max-w-2xl">
-                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Digital Asset Production Matrix</h2>
-                <p class="text-zinc-400 mt-2">Cross-functional tools, core computing languages, and project management layers utilized across pipelines.</p>
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Creative Technical Matrix</h2>
+                <p class="text-zinc-400 mt-2">Core vector engines, programming languages, and process patterns used to deploy structural asset components.</p>
             </div>
 
             <div class="grid sm:grid-cols-3 gap-6 text-sm">
                 <div class="bg-zinc-900/30 border border-zinc-800 p-5 rounded-xl space-y-3">
-                    <h3 class="font-bold text-teal-400 tracking-wider text-xs uppercase flex items-center space-x-2">
-                        <i class="fa-solid fa-bezier-curve"></i><span>2D Production Tools</span>
+                    <h3 class="font-bold text-fuchsia-400 tracking-wider text-xs uppercase flex items-center space-x-2">
+                        <i class="fa-solid fa-bezier-curve"></i><span>Vector Software Tools</span>
                     </h3>
                     <ul class="space-y-2 text-zinc-300 code-font text-xs">
-                        <li class="flex justify-between"><span>Inkscape Core Suite</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>Krita Studio Painting</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>GIMP Processing</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>Libresprite Animation Matrix</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Inkscape Core Engine</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Bezier Node Sculpting</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>SVG Manipulation Layers</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Linear/Radial Gradients</span><span class="text-zinc-500"></span></li>
                     </ul>
                 </div>
                 
                 <div class="bg-zinc-900/30 border border-zinc-800 p-5 rounded-xl space-y-3">
-                    <h3 class="font-bold text-cyan-400 tracking-wider text-xs uppercase flex items-center space-x-2">
-                        <i class="fa-solid fa-cubes"></i><span>3D Engine Suites</span>
+                    <h3 class="font-bold text-rose-400 tracking-wider text-xs uppercase flex items-center space-x-2">
+                        <i class="fa-solid fa-code"></i><span>Interactive Core Code</span>
                     </h3>
                     <ul class="space-y-2 text-zinc-300 code-font text-xs">
-                        <li class="flex justify-between"><span>Blender 3D Modeling</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>Godot Deployment Engine</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>Unreal Engine Core Logic</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>Asset Topology Mapping</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>JavaScript UI Logic</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>HTML5 CSS Stack</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Python Scripting</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Java Foundations</span><span class="text-zinc-500"></span></li>
                     </ul>
                 </div>
 
                 <div class="bg-zinc-900/30 border border-zinc-800 p-5 rounded-xl space-y-3">
-                    <h3 class="font-bold text-indigo-400 tracking-wider text-xs uppercase flex items-center space-x-2">
-                        <i class="fa-solid fa-gears"></i><span>Systems Architecture</span>
+                    <h3 class="font-bold text-amber-400 tracking-wider text-xs uppercase flex items-center space-x-2">
+                        <i class="fa-solid fa-gears"></i><span>Systems & Scopes</span>
                     </h3>
                     <ul class="space-y-2 text-zinc-300 text-xs">
-                        <li class="flex justify-between"><span>Python Scripting Automation</span><span class="text-teal-500">Pandas/NumPy</span></li>
-                        <li class="flex justify-between"><span>RICE Priority Modeling</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>Dynamic Interface Systems</span><span class="text-zinc-500"></span></li>
-                        <li class="flex justify-between"><span>Data Validation Loops</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Lifecycle Scoring</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Asset Pipelines</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Data Resolution Scales</span><span class="text-zinc-500">Vector Core</span></li>
+                        <li class="flex justify-between"><span>Responsive UI Frameworks</span><span class="text-zinc-500"></span></li>
                     </ul>
                 </div>
             </div>
-        </section>
+        </section>    </main>
 
-    </main>
-
+    <!-- Professional Footer -->
     <footer class="border-t border-zinc-900 bg-zinc-950 text-zinc-600 text-xs py-8">
         <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div>&copy; 2026 Trushil Raval. Engineering robust asset generation systems. All rights reserved.</div>
+            <div>&copy; 2026 Trushil Raval. Engineering interactive vector systems. All rights reserved.</div>
             <div class="flex space-x-6">
                 <a href="mailto:trushilr@gmail.com" class="hover:text-zinc-300 transition-colors flex items-center space-x-1">
                     <i class="fa-solid fa-envelope"></i> <span>Email</span>
@@ -309,188 +319,100 @@
         </div>
     </footer>
 
+    <!-- Frontend Vector Filter Processing Logic Engine -->
     <script>
-        let pipelineChartInstance = null;
-
-        const toolChain = document.getElementById('toolChain');
-        const pipelineDensity = document.getElementById('pipelineDensity');
-        const filtering = document.getElementById('filtering');
+        const assetStyle = document.getElementById('assetStyle');
+        const blurRadius = document.getElementById('blurRadius');
+        const lightOffset = document.getElementById('lightOffset');
         
-        const sliderLabel = document.getElementById('sliderLabel');
-        const sliderVal = document.getElementById('sliderVal');
-        const filterVal = document.getElementById('filterVal');
+        const blurVal = document.getElementById('blurVal');
+        const offsetVal = document.getElementById('offsetVal');
+        const canvasType = document.getElementById('canvasType');
 
-        const speedMetric = document.getElementById('speedMetric');
-        const memoryMetric = document.getElementById('memoryMetric');
-        const consoleText = document.getElementById('consoleText');
-        const processBtn = document.getElementById('processBtn');
+        const artConsoleText = document.getElementById('artConsoleText');
+        const vectorCanvas = document.getElementById('vectorCanvas');
 
-        function synchronizeControls() {
-            const rawVal = parseInt(pipelineDensity.value);
-            if (toolChain.value === 'ink_gimp') {
-                sliderLabel.textContent = "Raster Canvas Resolution Boundaries";
-                sliderVal.textContent = (rawVal * 64) + " px";
-                document.getElementById('sliderDesc').textContent = "Defines layer pixel array complexity across GIMP and Krita workspaces.";
-            } else {
-                sliderLabel.textContent = "3D Polygon Mesh Topology Limits";
-                sliderVal.textContent = rawVal + "k faces";
-                document.getElementById('sliderDesc').textContent = "Defines aggregate polygon face counts processed inside Blender and Godot engine memory.";
-            }
+        function synchronizeArtControls() {
+            blurVal.textContent = blurRadius.value + "px";
+            offsetVal.textContent = lightOffset.value + "px";
+            canvasType.textContent = assetStyle.value === 'gem' ? "Asset: Mana Crystal" : "Component: Rank Insignia";
             
-            const filterLabels = { 'uncompressed': 'Raw Matrix Structure', 'optimized': 'Layer-Indexed RLE', 'packed': 'Packed Coordinate Atlas' };
-            filterVal.textContent = filterLabels[filtering.value];
+            executeVectorRasterization();
         }
 
-        function runPipelineProcessing() {
-            const sizeValue = parseInt(pipelineDensity.value);
-            const is2DChain = toolChain.value === 'ink_gimp';
-            const mode = filtering.value;
+        function executeVectorRasterization() {
+            const blur = parseInt(blurRadius.value);
+            const offset = parseInt(lightOffset.value);
+            const choice = assetStyle.value;
 
-            let coordinateTimeline = [];
-            let processRates = [];
-            let ramFootprintData = [];
+            let svgContent = "";
+            let diagnosticsText = "";
 
-            let averageThroughput = 0;
-            let dynamicMemoryAllocation = 0;
-            let systemLogDiagnostic = "";
-
-            // Dynamic logic simulating realistic digital media asset pipelines
-            if (is2DChain) {
-                let pixelLoad = sizeValue * 64;
-                averageThroughput = 450 - (sizeValue * 2.5);
-                if (mode === 'uncompressed') averageThroughput -= 80;
-                if (mode === 'packed') averageThroughput += 110;
-
-                dynamicMemoryAllocation = (pixelLoad * 0.08) + (mode === 'uncompressed' ? 45 : 12);
-
-                if (dynamicMemoryAllocation > 48) {
-                    systemLogDiagnostic = "Pipeline Alarm: High memory footprint detected during uncompressed Krita layers parsing. Execute Inkscape batch export automation to reduce memory strain.";
-                } else {
-                    systemLogDiagnostic = "Pipeline Verified: Vector paths and nested GIMP layout configurations compiled smoothly into system memory boundaries.";
-                }
+            // Dynamic algorithmic filter feedback metrics
+            if (blur > 8 && choice === 'gem') {
+                diagnosticsText = "Inkscape Diagnostic: High Gaussian filter threshold applied ($\\sigma = " + blur + "px$). Inner geometric facets are bleeding into ambient space bounds, losing acute high-poly angular definition.";
+            } else if (Math.abs(offset) > 10) {
+                diagnosticsText = "Inkscape Diagnostic: Aggressive coordinate offset displacement ($X/Y: " + offset + "px$). Specular highlights are decoupling cleanly from target geometry baseline nodes.";
             } else {
-                averageThroughput = 120 - (sizeValue * 0.8);
-                if (mode === 'uncompressed') averageThroughput -= 25;
-                if (mode === 'packed') averageThroughput += 35;
-
-                dynamicMemoryAllocation = (sizeValue * 4.2) + (mode === 'uncompressed' ? 120 : 35);
-
-                if (averageThroughput < 45) {
-                    systemLogDiagnostic = "Pipeline Warning: Dense Blender mesh topology structures detected. Asset requires baking down to a low-poly frame map to prevent Godot viewport stasis loops.";
-                } else {
-                    systemLogDiagnostic = "Pipeline Verified: 3D bounding geometry array coordinates indexed successfully for game engine instantiation timelines.";
-                }
+                diagnosticsText = "Inkscape Diagnostic: Vector node layout parsing successful. Gradient configurations and translation filters map cleanly to target bounding boxes.";
             }
 
-            // Populate mock rendering pipeline steps
-            for (let i = 1; i <= 15; i++) {
-                coordinateTimeline.push(`Batch Node ${i}`);
-                let variationNoise = (Math.random() - 0.5) * (is2DChain ? 15 : 4);
-                
-                processRates.push(Math.max(10, (averageThroughput + variationNoise)).toFixed(1));
-                ramFootprintData.push(Math.max(5, (dynamicMemoryAllocation + (variationNoise * 0.1))).toFixed(2));
+            // Generate clean inline mathematical SVGs to mimic multi-layer Inkscape creations
+            if (choice === 'gem') {
+                svgContent = `
+                    <defs>
+                        <linearGradient id="gemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f006ff" />
+                            <stop offset="100%" stop-color="#7e00ff" />
+                        </linearGradient>
+                        <filter id="shadowFilter" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="${blur / 2}" result="blur" />
+                            <feOffset dx="${offset}" dy="${offset}" />
+                        </filter>
+                    </defs>
+                    <!-- Shadow Shape Layer -->
+                    <polygon points="50,5 90,35 75,85 25,85 10,35" fill="#000000" opacity="0.6" filter="url(#shadowFilter)" />
+                    <!-- Master Base Asset Node -->
+                    <polygon points="50,5 90,35 75,85 25,85 10,35" fill="url(#gemGrad)" stroke="#1a0033" stroke-width="1" />
+                    <!-- Facet Highlighting Layers -->
+                    <polygon points="50,5 50,45 90,35" fill="#ff9eff" opacity="0.3" />
+                    <polygon points="50,5 10,35 50,45" fill="#ffffff" opacity="0.4" />
+                    <polygon points="50,45 75,85 25,85" fill="#4b0099" opacity="0.4" />
+                    <polygon points="10,35 25,85 50,45" fill="#310066" opacity="0.2" />
+                `;
+            } else {
+                svgContent = `
+                    <defs>
+                        <linearGradient id="goldGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#eab308" />
+                            <stop offset="50%" stop-color="#fef08a" />
+                            <stop offset="100%" stop-color="#ca8a04" />
+                        </linearGradient>
+                        <filter id="glowFilter">
+                            <feGaussianBlur stdDeviation="${blur / 3}" />
+                            <feOffset dx="${offset / 2}" dy="${offset / 2}" />
+                        </filter>
+                    </defs>
+                    <!-- Background Ring Layer Component -->
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#ca8a04" stroke-width="4" filter="url(#glowFilter)" opacity="0.5" />
+                    <circle cx="50" cy="50" r="40" fill="#18181b" stroke="url(#goldGrad)" stroke-width="3" />
+                    <!-- Geometric Core Emblem Path Nodes -->
+                    <path d="M50,22 L62,46 L88,46 L66,60 L75,86 L50,70 L25,86 L34,60 L12,46 L38,46 Z" fill="url(#goldGrad)" />
+                    <path d="M50,22 L50,70 L25,86 L34,60 L12,46 L38,46 Z" fill="#ffffff" opacity="0.25" />
+                `;
             }
 
-            speedMetric.textContent = averageThroughput.toFixed(0) + " items/sec";
-            memoryMetric.textContent = dynamicMemoryAllocation.toFixed(1) + " MB";
-            consoleText.innerHTML = systemLogDiagnostic;
-
-            renderPipelineTelemetryChart(coordinateTimeline, processRates, ramFootprintData);
+            vectorCanvas.innerHTML = svgContent;
+            artConsoleText.textContent = diagnosticsText;
         }
 
-        function renderPipelineTelemetryChart(labels, rates, memoryData) {
-            const ctx = document.getElementById('pipelineChart').getContext('2d');
-            
-            if (pipelineChartInstance) {
-                pipelineChartInstance.destroy();
-            }
-
-            pipelineChartInstance = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        {
-                            label: 'Asset Processing Throughput Speed (items/s)',
-                            data: rates,
-                            borderColor: '#14b8a6',
-                            backgroundColor: 'rgba(20, 184, 166, 0.02)',
-                            borderWidth: 2,
-                            tension: 0.15,
-                            yAxisID: 'ySpeed'
-                        },
-                        {
-                            label: 'System Execution Memory Load (MB)',
-                            data: memoryData,
-                            borderColor: '#6366f1',
-                            backgroundColor: 'rgba(99, 102, 241, 0.02)',
-                            borderWidth: 1.5,
-                            borderDash: [3, 3],
-                            tension: 0.15,
-                            yAxisID: 'yRam'
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { labels: { color: '#a1a1aa', font: { size: 10, family: 'Plus Jakarta Sans' } } }
-                    },
-                    scales: {
-                        x: { grid: { color: 'rgba(63, 63, 70, 0.4)' }, ticks: { color: '#52525b', font: { size: 9 } } },
-                        ySpeed: {
-                            type: 'linear',
-                            position: 'left',
-                            title: { display: true, text: 'Throughput Pipeline Velocity', color: '#14b8a6', font: { size: 10 } },
-                            grid: { color: 'rgba(63, 63, 70, 0.7)' },
-                            ticks: { color: '#71717a' }
-                        },
-                        yRam: {
-                            type: 'linear',
-                            position: 'right',
-                            title: { display: true, text: 'System Volatile Buffer Load (MB)', color: '#6366f1', font: { size: 10 } },
-                            grid: { drawOnChartArea: false },
-                            ticks: { color: '#71717a' }
-                        }
-                    }
-                }
-            });
-        }
-
-        // Attach event interaction hooks
-        [toolChain, pipelineDensity, filtering].forEach(inputControl => {
-            inputControl.addEventListener('input', synchronizeControls);
+        // Attach event listener hooks to interface inputs
+        [assetStyle, blurRadius, lightOffset].forEach(inputElement => {
+            inputElement.addEventListener('input', synchronizeArtControls);
         });
 
-        toolChain.addEventListener('change', () => {
-            if (toolChain.value === 'ink_gimp') {
-                pipelineDensity.min = 10; pipelineDensity.max = 100; pipelineDensity.value = 50;
-            } else {
-                pipelineDensity.min = 5; pipelineDensity.max = 80; pipelineDensity.value = 30;
-            }
-            synchronizeControls();
-        });
-
-        processBtn.addEventListener('click', () => {
-            const icon = document.getElementById('btnIcon');
-            const text = document.getElementById('btnText');
-            
-            icon.className = "fa-solid fa-spinner animate-spin text-teal-400";
-            text.textContent = "Parsing File Headers & Transforming Formats...";
-            processBtn.disabled = true;
-
-            setTimeout(() => {
-                runPipelineProcessing();
-                icon.className = "fa-solid fa-arrows-spin";
-                text.textContent = "Compile Asset Matrix";
-                processBtn.disabled = false;
-            }, 500);
-        });
-
-        // Initialize execution sequence
-        synchronizeControls();
-        runPipelineProcessing();
+        // Bootstrap execution pipeline
+        synchronizeArtControls();
     </script>
 </body>
 </html>
