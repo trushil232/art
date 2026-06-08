@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trushil Raval | 2D & 3D Digital Media Specialist Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .code-font { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col justify-between selection:bg-teal-500 selection:text-white">
+
+    <header class="border-b border-zinc-900 bg-zinc-950/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-teal-500 to-indigo-600 flex items-center justify-center text-white font-bold text-sm tracking-wider">TR</div>
+                <span class="font-bold tracking-tight hidden sm:block text-zinc-200">Trushil Raval</span>
+            </div>
+            <nav class="flex space-x-6 text-xs uppercase tracking-widest font-semibold text-zinc-400">
+                <a href="#about" class="hover:text-teal-400 transition-colors">Core Profile</a>
+                <a href="#asset-simulator" class="hover:text-teal-400 transition-colors">Pipeline Simulator</a>
+                <a href="#experience" class="hover:text-teal-400 transition-colors">Technical Track</a>
+                <a href="#toolkit" class="hover:text-teal-400 transition-colors">Tool Matrix</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-24 flex-grow">
+
+        <section id="about" class="grid md:grid-cols-12 gap-12 items-center pt-4">
+            <div class="md:col-span-7 space-y-6">
+                <div class="inline-flex items-center space-x-2 bg-teal-500/10 text-teal-400 px-3 py-1 rounded-md text-xs font-semibold tracking-wider uppercase border border-teal-500/20">
+                    <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+                    <span>AI-Driven Asset Engineering Track</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+                    Optimizing Multi-Dimensional Media Pipelines for <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-cyan-400 to-indigo-400">Advanced Research</span>
+                </h1>
+                <p class="text-zinc-400 text-base leading-relaxed max-w-xl">
+                    Computer Science student at UTSA specialized in structuring, refining, and automating resolution-independent 2D vector layouts, layered raster arrays, and high-fidelity 3D mesh topologies for immersive system integrations.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#asset-simulator" class="bg-gradient-to-r from-teal-500 to-indigo-600 hover:from-teal-400 hover:to-indigo-500 text-white px-5 py-2.5 rounded-lg font-medium shadow-lg shadow-teal-500/20 transition-all flex items-center space-x-2 text-sm">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>Launch Pipeline Simulator</span>
+                    </a>
+                    <a href="https://linkedin.com/in/trushilraval" target="_blank" class="bg-zinc-900 hover:bg-zinc-800 text-zinc-200 px-5 py-2.5 rounded-lg font-medium border border-zinc-800 transition-colors flex items-center space-x-2 text-sm">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:col-span-5 bg-zinc-900 border border-zinc-800 rounded-xl p-5 shadow-2xl relative overflow-hidden hidden md:block">
+                <div class="flex justify-between items-center mb-4 border-b border-zinc-800 pb-3">
+                    <span class="text-xs code-font text-zinc-500">asset_batch_compile.py</span>
+                    <div class="flex space-x-1.5">
+                        <div class="w-2.5 h-2.5 rounded-full bg-zinc-800"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-zinc-800"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-zinc-800"></div>
+                    </div>
+                </div>
+                <pre class="text-xs code-font text-teal-400 space-y-1 overflow-x-auto"><code><span class="text-zinc-500"># Automated multi-tool asset scaling pipeline</span>
+<span class="text-purple-400">import</span> os
+<span class="text-purple-400">import</span> subprocess
+
+<span class="text-indigo-400">def</span> <span class="text-amber-400">compile_research_dataset</span>(source_svg, target_voxels):
+    <span class="text-zinc-500"># Render optimized variations via Inkscape CLI</span>
+    cmd = f<span class="text-amber-300">"inkscape {source_svg} --export-type=png"</span>
+    subprocess.run(cmd, shell=<span class="text-emerald-400">True</span>)
+    
+    <span class="text-zinc-500"># Verify dataset dimension boundaries</span>
+    <span class="text-purple-400">if</span> os.path.exists(target_voxels):
+        <span class="text-purple-400">return</span> <span class="text-amber-300">"Telemetry State Verified"</span></code></pre>
+            </div>
+        </section>
+
+        <hr class="border-zinc-900">
+
+        <section id="asset-simulator" class="space-y-8">
+            <div class="max-w-3xl">
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white flex items-center space-x-3">
+                    <i class="fa-solid fa-gauge-high text-teal-500 text-xl"></i>
+                    <span>Live Showcase: Interactive Media Pipeline & Quality Control Tool</span>
+                </h2>
+                <p class="text-zinc-400 mt-2">
+                    Select a multi-tool digital media pipeline subset below. Tweak file structural settings and compression modes to dynamically observe processing throughput speed, memory footprint constraints, and data generation integrity limits.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8">
+                <div class="lg:col-span-4 bg-zinc-900 border border-zinc-800 rounded-xl p-6 space-y-6 flex flex-col justify-between">
+                    <div class="space-y-5">
+                        <h3 class="text-xs font-bold text-zinc-300 tracking-wider uppercase border-b border-zinc-800 pb-2 flex items-center space-x-2">
+                            <i class="fa-solid fa-sliders text-teal-400"></i>
+                            <span>Pipeline Configurations</span>
+                        </h3>
+                        
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-xs font-medium">
+                                <label for="toolChain" class="text-zinc-400">Target Digital Toolchain Track</label>
+                            </div>
+                            <select id="toolChain" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-teal-500">
+                                <option value="ink_gimp">2D Vector & Raster (Inkscape, GIMP, Krita)</option>
+                                <option value="blend_godot">3D Mesh & Engine Loops (Blender, Libresprite, Godot)</option>
+                            </select>
+                        </div>
+
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-xs font-medium">
+                                <label id="sliderLabel" for="pipelineDensity" class="text-zinc-400">Asset Canvas Dimensions</label>
+                                <span id="sliderVal" class="text-teal-400 code-font">2K Res</span>
+                            </div>
+                            <input type="range" id="pipelineDensity" min="10" max="100" step="10" value="50" class="w-full h-1.5 bg-zinc-800 rounded-lg appearance-none cursor-pointer accent-teal-500">
+                            <p id="sliderDesc" class="text-[11px] text-zinc-500">Maps out coordinate point array data parsing complexity for asset batch builds.</p>
+                        </div>
+
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-xs font-medium">
+                                <label for="filtering" class="text-zinc-400">Encoding Optimization Mode</label>
+                                <span id="filterVal" class="text-teal-400 code-font">Lossless Layered</span>
+                            </div>
+                            <select id="filtering" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-teal-500">
+                                <option value="uncompressed">Uncompressed Raw Matrix Storage</option>
+                                <option value="optimized">Normalized & Multi-Layer RLE Layer Indexed</option>
+                                <option value="packed">Packed Core Voxel / Atlas Array Block</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button id="processBtn" class="w-full bg-gradient-to-r from-teal-500 to-indigo-600 hover:from-teal-400 hover:to-indigo-500 text-white font-semibold text-sm py-2.5 px-4 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-lg shadow-teal-500/20">
+                        <i id="btnIcon" class="fa-solid fa-arrows-spin"></i>
+                        <span id="btnText">Compile Asset Matrix</span>
+                    </button>
+                </div>
+
+                <div class="lg:col-span-8 bg-zinc-900/40 border border-zinc-800 rounded-xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xs font-bold uppercase tracking-wider text-zinc-400 flex items-center space-x-2">
+                                <i class="fa-solid fa-chart-line text-zinc-500"></i>
+                                <span>Throughput Analytics: Resource Consumption Graph</span>
+                            </h3>
+                            <div class="flex items-center space-x-4 text-xs code-font">
+                                <span class="text-teal-400">Processing Speed: <span id="speedMetric">--</span></span>
+                                <span class="text-indigo-400">Memory Load: <span id="memoryMetric">--</span></span>
+                            </div>
+                        </div>
+                        <div class="h-64 w-full relative">
+                            <canvas id="pipelineChart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4 p-4 rounded-lg bg-zinc-950 border border-zinc-800 flex space-x-3 items-start">
+                        <i class="fa-solid fa-terminal text-indigo-400 text-sm mt-0.5"></i>
+                        <div class="text-xs text-zinc-400 space-y-1">
+                            <span class="font-semibold text-zinc-200 block">Pipeline Verification Core:</span>
+                            <p id="consoleText">Select operational values to trigger simulation telemetry logs instantly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-zinc-900">
+
+        <section id="experience" class="space-y-8">
+            <div class="max-w-2xl">
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Digital Media Engineering & Pipeline Experience</h2>
+                <p class="text-zinc-400 mt-2">Selected technical tracks evaluating layer management, algorithmic optimization, and design architecture loops.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-zinc-100">Vector UI & Layered Raster Synthesis</h3>
+                            <span class="text-xs text-zinc-500 code-font">Inkscape / Krita / GIMP</span>
+                        </div>
+                        <p class="text-sm text-zinc-400">
+                            Designing resolution-independent vector assets inside Inkscape alongside structured high-bit-depth digital painting masks within Krita. Developing systematic layered asset structures to support robust model segmentation.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Inkscape Core</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Krita Non-Destructive Layering</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">GIMP Processing</span>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-zinc-100">3D Environment Mesh Optimization</h3>
+                            <span class="text-xs text-zinc-500 code-font">Blender / Godot / Unreal</span>
+                        </div>
+                        <p class="text-sm text-zinc-400">
+                            Modeling photorealistic and low-poly environments inside Blender. Focus placed on maximizing coordinate compilation efficiency, cleaning face orientation indices, and evaluating layout constraints for runtime engines.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Blender UV Topology</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Godot / Unreal Engine Track</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Libresprite Integration</span>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-zinc-100">Full-Stack Exhibition Application Infrastructure</h3>
+                            <span class="text-xs text-zinc-500 code-font">Technical Lead</span>
+                        </div>
+                        <p class="text-sm text-zinc-400">
+                            Led end-to-end frontend and backend development of custom interactive platforms. Optimized media asset delivery paths and normalized data streams to prevent performance delays, scaling platforms seamlessly for real-time traffic.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Interface Layouts</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Data Normalization</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">System Profiling</span>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900/40 border border-zinc-900 rounded-xl p-6 space-y-4 hover:border-zinc-800 transition-colors flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-zinc-100">Digital Portfolio Optimization Modeling</h3>
+                            <span class="text-xs text-zinc-500 code-font">Content & Analytics Track</span>
+                        </div>
+                        <p class="text-sm text-zinc-400">
+                            Analyzed media performance variations, managing high-volume data streams tracking over 75 million metric signals. Utilized index validation algorithms and asset distribution optimizations to parse consumption trend maps.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Statistical Analysis</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Matrix Indexing</span>
+                        <span class="text-[11px] code-font bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded text-zinc-400">Resource Control</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-zinc-900">
+
+        <section id="toolkit" class="space-y-8">
+            <div class="max-w-2xl">
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Digital Asset Production Matrix</h2>
+                <p class="text-zinc-400 mt-2">Cross-functional tools, core computing languages, and project management layers utilized across pipelines.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-3 gap-6 text-sm">
+                <div class="bg-zinc-900/30 border border-zinc-800 p-5 rounded-xl space-y-3">
+                    <h3 class="font-bold text-teal-400 tracking-wider text-xs uppercase flex items-center space-x-2">
+                        <i class="fa-solid fa-bezier-curve"></i><span>2D Production Tools</span>
+                    </h3>
+                    <ul class="space-y-2 text-zinc-300 code-font text-xs">
+                        <li class="flex justify-between"><span>Inkscape Core Suite</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Krita Studio Painting</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>GIMP Processing</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Libresprite Animation Matrix</span><span class="text-zinc-500"></span></li>
+                    </ul>
+                </div>
+                
+                <div class="bg-zinc-900/30 border border-zinc-800 p-5 rounded-xl space-y-3">
+                    <h3 class="font-bold text-cyan-400 tracking-wider text-xs uppercase flex items-center space-x-2">
+                        <i class="fa-solid fa-cubes"></i><span>3D Engine Suites</span>
+                    </h3>
+                    <ul class="space-y-2 text-zinc-300 code-font text-xs">
+                        <li class="flex justify-between"><span>Blender 3D Modeling</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Godot Deployment Engine</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Unreal Engine Core Logic</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Asset Topology Mapping</span><span class="text-zinc-500"></span></li>
+                    </ul>
+                </div>
+
+                <div class="bg-zinc-900/30 border border-zinc-800 p-5 rounded-xl space-y-3">
+                    <h3 class="font-bold text-indigo-400 tracking-wider text-xs uppercase flex items-center space-x-2">
+                        <i class="fa-solid fa-gears"></i><span>Systems Architecture</span>
+                    </h3>
+                    <ul class="space-y-2 text-zinc-300 text-xs">
+                        <li class="flex justify-between"><span>Python Scripting Automation</span><span class="text-teal-500">Pandas/NumPy</span></li>
+                        <li class="flex justify-between"><span>RICE Priority Modeling</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Dynamic Interface Systems</span><span class="text-zinc-500"></span></li>
+                        <li class="flex justify-between"><span>Data Validation Loops</span><span class="text-zinc-500"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-zinc-900 bg-zinc-950 text-zinc-600 text-xs py-8">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>&copy; 2026 Trushil Raval. Engineering robust asset generation systems. All rights reserved.</div>
+            <div class="flex space-x-6">
+                <a href="mailto:trushilr@gmail.com" class="hover:text-zinc-300 transition-colors flex items-center space-x-1">
+                    <i class="fa-solid fa-envelope"></i> <span>Email</span>
+                </a>
+                <a href="https://linkedin.com/in/trushilraval" target="_blank" class="hover:text-zinc-300 transition-colors flex items-center space-x-1">
+                    <i class="fa-brands fa-linkedin"></i> <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let pipelineChartInstance = null;
+
+        const toolChain = document.getElementById('toolChain');
+        const pipelineDensity = document.getElementById('pipelineDensity');
+        const filtering = document.getElementById('filtering');
+        
+        const sliderLabel = document.getElementById('sliderLabel');
+        const sliderVal = document.getElementById('sliderVal');
+        const filterVal = document.getElementById('filterVal');
+
+        const speedMetric = document.getElementById('speedMetric');
+        const memoryMetric = document.getElementById('memoryMetric');
+        const consoleText = document.getElementById('consoleText');
+        const processBtn = document.getElementById('processBtn');
+
+        function synchronizeControls() {
+            const rawVal = parseInt(pipelineDensity.value);
+            if (toolChain.value === 'ink_gimp') {
+                sliderLabel.textContent = "Raster Canvas Resolution Boundaries";
+                sliderVal.textContent = (rawVal * 64) + " px";
+                document.getElementById('sliderDesc').textContent = "Defines layer pixel array complexity across GIMP and Krita workspaces.";
+            } else {
+                sliderLabel.textContent = "3D Polygon Mesh Topology Limits";
+                sliderVal.textContent = rawVal + "k faces";
+                document.getElementById('sliderDesc').textContent = "Defines aggregate polygon face counts processed inside Blender and Godot engine memory.";
+            }
+            
+            const filterLabels = { 'uncompressed': 'Raw Matrix Structure', 'optimized': 'Layer-Indexed RLE', 'packed': 'Packed Coordinate Atlas' };
+            filterVal.textContent = filterLabels[filtering.value];
+        }
+
+        function runPipelineProcessing() {
+            const sizeValue = parseInt(pipelineDensity.value);
+            const is2DChain = toolChain.value === 'ink_gimp';
+            const mode = filtering.value;
+
+            let coordinateTimeline = [];
+            let processRates = [];
+            let ramFootprintData = [];
+
+            let averageThroughput = 0;
+            let dynamicMemoryAllocation = 0;
+            let systemLogDiagnostic = "";
+
+            // Dynamic logic simulating realistic digital media asset pipelines
+            if (is2DChain) {
+                let pixelLoad = sizeValue * 64;
+                averageThroughput = 450 - (sizeValue * 2.5);
+                if (mode === 'uncompressed') averageThroughput -= 80;
+                if (mode === 'packed') averageThroughput += 110;
+
+                dynamicMemoryAllocation = (pixelLoad * 0.08) + (mode === 'uncompressed' ? 45 : 12);
+
+                if (dynamicMemoryAllocation > 48) {
+                    systemLogDiagnostic = "Pipeline Alarm: High memory footprint detected during uncompressed Krita layers parsing. Execute Inkscape batch export automation to reduce memory strain.";
+                } else {
+                    systemLogDiagnostic = "Pipeline Verified: Vector paths and nested GIMP layout configurations compiled smoothly into system memory boundaries.";
+                }
+            } else {
+                averageThroughput = 120 - (sizeValue * 0.8);
+                if (mode === 'uncompressed') averageThroughput -= 25;
+                if (mode === 'packed') averageThroughput += 35;
+
+                dynamicMemoryAllocation = (sizeValue * 4.2) + (mode === 'uncompressed' ? 120 : 35);
+
+                if (averageThroughput < 45) {
+                    systemLogDiagnostic = "Pipeline Warning: Dense Blender mesh topology structures detected. Asset requires baking down to a low-poly frame map to prevent Godot viewport stasis loops.";
+                } else {
+                    systemLogDiagnostic = "Pipeline Verified: 3D bounding geometry array coordinates indexed successfully for game engine instantiation timelines.";
+                }
+            }
+
+            // Populate mock rendering pipeline steps
+            for (let i = 1; i <= 15; i++) {
+                coordinateTimeline.push(`Batch Node ${i}`);
+                let variationNoise = (Math.random() - 0.5) * (is2DChain ? 15 : 4);
+                
+                processRates.push(Math.max(10, (averageThroughput + variationNoise)).toFixed(1));
+                ramFootprintData.push(Math.max(5, (dynamicMemoryAllocation + (variationNoise * 0.1))).toFixed(2));
+            }
+
+            speedMetric.textContent = averageThroughput.toFixed(0) + " items/sec";
+            memoryMetric.textContent = dynamicMemoryAllocation.toFixed(1) + " MB";
+            consoleText.innerHTML = systemLogDiagnostic;
+
+            renderPipelineTelemetryChart(coordinateTimeline, processRates, ramFootprintData);
+        }
+
+        function renderPipelineTelemetryChart(labels, rates, memoryData) {
+            const ctx = document.getElementById('pipelineChart').getContext('2d');
+            
+            if (pipelineChartInstance) {
+                pipelineChartInstance.destroy();
+            }
+
+            pipelineChartInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Asset Processing Throughput Speed (items/s)',
+                            data: rates,
+                            borderColor: '#14b8a6',
+                            backgroundColor: 'rgba(20, 184, 166, 0.02)',
+                            borderWidth: 2,
+                            tension: 0.15,
+                            yAxisID: 'ySpeed'
+                        },
+                        {
+                            label: 'System Execution Memory Load (MB)',
+                            data: memoryData,
+                            borderColor: '#6366f1',
+                            backgroundColor: 'rgba(99, 102, 241, 0.02)',
+                            borderWidth: 1.5,
+                            borderDash: [3, 3],
+                            tension: 0.15,
+                            yAxisID: 'yRam'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { labels: { color: '#a1a1aa', font: { size: 10, family: 'Plus Jakarta Sans' } } }
+                    },
+                    scales: {
+                        x: { grid: { color: 'rgba(63, 63, 70, 0.4)' }, ticks: { color: '#52525b', font: { size: 9 } } },
+                        ySpeed: {
+                            type: 'linear',
+                            position: 'left',
+                            title: { display: true, text: 'Throughput Pipeline Velocity', color: '#14b8a6', font: { size: 10 } },
+                            grid: { color: 'rgba(63, 63, 70, 0.7)' },
+                            ticks: { color: '#71717a' }
+                        },
+                        yRam: {
+                            type: 'linear',
+                            position: 'right',
+                            title: { display: true, text: 'System Volatile Buffer Load (MB)', color: '#6366f1', font: { size: 10 } },
+                            grid: { drawOnChartArea: false },
+                            ticks: { color: '#71717a' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Attach event interaction hooks
+        [toolChain, pipelineDensity, filtering].forEach(inputControl => {
+            inputControl.addEventListener('input', synchronizeControls);
+        });
+
+        toolChain.addEventListener('change', () => {
+            if (toolChain.value === 'ink_gimp') {
+                pipelineDensity.min = 10; pipelineDensity.max = 100; pipelineDensity.value = 50;
+            } else {
+                pipelineDensity.min = 5; pipelineDensity.max = 80; pipelineDensity.value = 30;
+            }
+            synchronizeControls();
+        });
+
+        processBtn.addEventListener('click', () => {
+            const icon = document.getElementById('btnIcon');
+            const text = document.getElementById('btnText');
+            
+            icon.className = "fa-solid fa-spinner animate-spin text-teal-400";
+            text.textContent = "Parsing File Headers & Transforming Formats...";
+            processBtn.disabled = true;
+
+            setTimeout(() => {
+                runPipelineProcessing();
+                icon.className = "fa-solid fa-arrows-spin";
+                text.textContent = "Compile Asset Matrix";
+                processBtn.disabled = false;
+            }, 500);
+        });
+
+        // Initialize execution sequence
+        synchronizeControls();
+        runPipelineProcessing();
+    </script>
+</body>
+</html>
